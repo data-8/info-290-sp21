@@ -6,10 +6,7 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> # Fill in the line that currently says
-          >>> #   predicted_distance_m = ...
-          >>> # in the cell above.
-          >>> predicted_distance_m != ...
+          >>> predicted_distance_m != ... # Fill in the line that currently says: predicted_distance_m = ... in the cell above.
           True
           """,
           'hidden': False,
@@ -17,10 +14,7 @@ test = {
         },
         {
           'code': r"""
-          >>> # Compute predicted_distance_m using the formula in the text
-          >>> # above.  Hint: it should start with something like this:
-          >>> #   predicted_distance_m = (1/2) * gravity_constant ...
-          >>> round(predicted_distance_m, 5)
+          >>> round(predicted_distance_m, 5) # Compute predicted_distance_m using the formula in the text above. Hint: it should start with something like this: predicted_distance_m = (1/2) * gravity_constant ...
           1.17022
           """,
           'hidden': False,

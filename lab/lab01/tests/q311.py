@@ -6,10 +6,7 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> # Fill in the line
-          >>> #   num_avenues_away = ...
-          >>> # in the cell above. 
-          >>> num_avenues_away != ...
+          >>> num_avenues_away != ... # Fill in the line num_avenues_away = ... in the cell above.
           True
           """,
           'hidden': False,
@@ -17,9 +14,7 @@ test = {
         },
         {
           'code': r"""
-          >>> # Remember to compute the absolute value of 7-10.  Traveling 
-          >>> # "-3 blocks" doesn't really make sense!
-          >>> num_avenues_away != -3
+          >>> num_avenues_away != -3 # Remember to compute the absolute value of 7-10.  Traveling "-3 blocks" doesn't really make sense!
           True
           """,
           'hidden': False,
