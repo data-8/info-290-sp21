@@ -6,11 +6,8 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> # It looks like you didn't load an image.  Hint:
-          >>> # your code should start like this:
-          >>> #   art = IPython.display.Image(...
           >>> import IPython.display
-          >>> type(art) == IPython.core.display.Image
+          >>> type(art) == IPython.core.display.Image # It looks like you didn't load an image.  Hint: your code should start like this: art = IPython.display.Image(...
           True
           """,
           'hidden': False,
@@ -18,8 +15,7 @@ test = {
         },
         {
           'code': r"""
-          >>> # It looks like you loaded the wrong image.
-          >>> 'The_Death_of_Socrates' in art.url
+          >>> 'The_Death_of_Socrates' in art.url # It looks like you loaded the wrong image.
           True
           """,
           'hidden': False,

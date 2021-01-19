@@ -7,7 +7,7 @@ test = {
         {
           'code': r"""
           >>> new_year
-          2019
+          2021
           """,
           'hidden': False,
           'locked': False

@@ -6,9 +6,7 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> # Try assigning start to a negative integer based on founded.
-          >>> #   start = int(founded.replace('BC ', '-'))
-          >>> start in (-753, -752)
+          >>> start in (-753, -752) # Try assigning start to a negative integer based on founded. For example: start = int(founded.replace('BC ', '-'))
           True
           """,
           'hidden': False,
@@ -16,10 +14,7 @@ test = {
         },
         {
           'code': r"""
-          >>> # Try assigning end to a positive integer based on sacked.
-          >>> # You can replace some part of a string with nothing.
-          >>> #   end = int(sacked.replace('AD ', ''))
-          >>> end in (409, 410)
+          >>> end in (409, 410) # Try assigning end to a positive integer based on sacked. You can replace some part of a string with nothing. For example: end = int(sacked.replace('AD ', ''))
           True
           """,
           'hidden': False,
