@@ -6,9 +6,9 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> average_latitude == 39.186464523495417
+          >>> np.isclose(39.186464523495417, average_latitude)
           True
-          >>> average_longitude == -90.992580812926292
+          >>> np.isclose(-90.99258081292628, average_longitude)
           True
 
           """,
