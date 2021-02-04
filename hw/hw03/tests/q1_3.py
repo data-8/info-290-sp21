@@ -14,8 +14,9 @@ test = {
         },
         {
           'code': r"""
-          >>> round(revised_dissimilarity)
-          506.0
+          >>> import numpy as np
+          >>> np.isclose(505.98313211458793, revised_dissimilarity)
+          True
           """,
           'hidden': False,
           'locked': False

@@ -18,8 +18,9 @@ test = {
         },
         {
           'code': r"""
-          >>> round(sum(pter))
-          107.0
+          >>> import numpy as np
+          >>> np.isclose(sum(pter), 107.31349999999999)
+          True
           """,
           'hidden': False,
           'locked': False

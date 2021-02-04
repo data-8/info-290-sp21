@@ -6,7 +6,7 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> "(No previous year)" not in with_previous_compensation.column("% Change") # Make sure to remove the "(No previous year)" CEOs
+          >>> "(No previous year)" not in with_previous_compensation.column("% Change") # Make sure to remove the "(No previous year)" CEOs. You can use tbl.where to do this!
           True
 
           """,

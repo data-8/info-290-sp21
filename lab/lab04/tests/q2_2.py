@@ -6,9 +6,10 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> a_percentage == 70.71067811865476
+          >>> import numpy as np
+          >>> np.isclose(70.71067811865476, a_percentage)
           True
-
+          
           """,
           'hidden': False,
           'locked': False

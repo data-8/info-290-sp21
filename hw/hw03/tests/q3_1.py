@@ -14,8 +14,9 @@ test = {
         },
         {
           'code': r"""
-          >>> round(us_birth_rate, 4)
-          0.0124
+          >>> import math
+          >>> math.isclose(us_birth_rate, 0.012358536498646102, rel_tol = 0.005)
+          True
           """,
           'hidden': False,
           'locked': False

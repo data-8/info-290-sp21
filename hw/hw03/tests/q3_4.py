@@ -14,8 +14,8 @@ test = {
         },
         {
           'code': r"""
-          >>> west_births
-          979657
+          >>> west_births == 979657
+          True
           """,
           'hidden': False,
           'locked': False

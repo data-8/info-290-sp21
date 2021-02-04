@@ -6,8 +6,9 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> round(dissimilarity)
-          14061.0
+          >>> import numpy as np
+          >>> np.isclose(14060.55870106792, dissimilarity)
+          True
           """,
           'hidden': False,
           'locked': False

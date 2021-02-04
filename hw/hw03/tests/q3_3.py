@@ -14,8 +14,8 @@ test = {
         },
         {
           'code': r"""
-          >>> movers
-          9
+          >>> float(movers) == 9.0
+          True
           """,
           'hidden': False,
           'locked': False

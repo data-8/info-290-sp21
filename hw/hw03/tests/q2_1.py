@@ -12,6 +12,14 @@ test = {
           """,
           'hidden': False,
           'locked': False
+        },
+        {
+          'code': r"""
+          >>> unemployment.num_rows
+          90
+          """,
+          'hidden': False,
+          'locked': False
         }
       ],
       'scored': True,

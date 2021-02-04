@@ -13,6 +13,15 @@ test = {
           'hidden': False,
           'locked': False
         },
+        {
+          'code': r"""
+          >>> twenty_percent == 20.0
+          True
+
+          """,
+          'hidden': False,
+          'locked': False
+        },
       ],
       'scored': True,
       'setup': '',

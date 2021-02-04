@@ -14,8 +14,8 @@ test = {
         },
         {
           'code': r"""
-          >>> less_than_west_births
-          7
+          >>> less_than_west_births == 7
+          True
           """,
           'hidden': False,
           'locked': False
