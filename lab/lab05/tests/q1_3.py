@@ -6,8 +6,7 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> # Make sure you are using the date range 1970-2015
-          >>> post_1969_fertility_and_child_mortality.num_rows
+          >>> post_1969_fertility_and_child_mortality.num_rows # Make sure you are using the date range 1970-2015
           46
           """,
           'hidden': False,
@@ -15,8 +14,7 @@ test = {
         },
         {
           'code': r"""
-          >>> # Check your column labels and spelling
-          >>> all([label in post_1969_fertility_and_child_mortality.labels for label in ['Children per woman', 'Child deaths per 1000 born']])
+          >>> all([label in post_1969_fertility_and_child_mortality.labels for label in ['Children per woman', 'Child deaths per 1000 born']]) # Check your column labels and spelling
           True
           """,
           'hidden': False,
