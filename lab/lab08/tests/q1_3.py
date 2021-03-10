@@ -16,8 +16,6 @@ test = {
         },
         {
           'code': r"""
-          >>> list(most_murderous(1970))
-          ['North Carolina', 'Alaska', 'Florida', 'South Carolina', 'Georgia']
           >>> list(most_murderous(1990))
           ['California', 'Mississippi', 'Texas', 'New York', 'Louisiana']
           """,
