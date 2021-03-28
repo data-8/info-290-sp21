@@ -7,7 +7,7 @@ test = {
         {
           'code': r"""
           >>> 88 < left_end < 100
-          5000
+          True
           """,
           'hidden': False,
           'locked': False
