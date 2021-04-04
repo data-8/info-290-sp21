@@ -17,7 +17,7 @@ test = {
         {
           'code': r"""
           >>> all(x == resampled_means[0] for x in resampled_means)
-          True
+          False
           """,
           'hidden': False,
           'locked': False
