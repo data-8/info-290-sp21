@@ -18,7 +18,7 @@ test = {
         },
         {
           'code': r"""
-          >>> np.isclose(michelle_sample_mean_sd, 0.005000)
+          >>> np.isclose(michelle_sample_mean_sd, 0.005000, atol = 0.0001)
           True
           >>> smaller_sample_mean_sd > michelle_sample_mean_sd
           True
