@@ -19,7 +19,7 @@ test = {
           """,
           'hidden': False,
           'locked': False
-        }
+        },
         {
           'code': r"""
           >>> import numpy as np
